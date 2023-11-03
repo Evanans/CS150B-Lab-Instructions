@@ -5,6 +5,10 @@
 We will continue with the printStatement function. Under the print(“Welcome to your second lab”), print “This is my first print statement!”. 
 Make sure it is indented underneath the function at the same indentation level as the other print statement. 
 
+Make Sure to remove the __#__ to uncomment the print(printStatement()) located in run() before you run the function!
+
+_If you don't remember what comments are, refer to section 2.2 in your reading._
+
 Run your program and make sure you have the correct output! It should look like this:
 ```
 Welcome to your second lab!
@@ -75,7 +79,7 @@ Output should look like this:
 ## Putting it all together (Step 5)
 In this step we will be combining everything we’ve learned so far.
 
-1. First you will need to define a function called iceCreamOrder. Go to step 0.5 to learn about defining a function if you don’t remember how to.
+1. First you will need to define a function called iceCreamOrder with no parameters. Go to step 0.5 to learn about defining a function if you don’t remember how to.
 2. Within that function, create an int variable called cost and assign it to equal 6.
 3. Then ask the user for input asking “What flavor would you like? => “ and store their answer in a variable called flavor. Hint: If you don’t remember user input, look back at lab 00.
 4. Next return a statement stating “The **flavor** will cost **cost** dollars.” replacing flavor and cost with your two variables you created.
@@ -83,14 +87,16 @@ In this step we will be combining everything we’ve learned so far.
 
 *Hint: Use casting to cast cost from an int to a string or else it won’t return properly. (An error will occur)*
 
+5. __In the run() function, make sure to write a function call to your iceCreamOrder() function so that you will get output.__
+
 In the zyBooks input box, put ‘vanilla’ to test your code.
 
 Don’t forget to call the function to see the output. Make sure to put it above the return in run().
 
 If you do this successfully, the output should look like:
 ```
-    Hello World!  
-    This is my first print statement! 
+    Welcome to your second lab!
+    This is my first print statement!
     This is my first return statement!
     4
     35
